@@ -92,9 +92,6 @@ def input_to_index(user_input)
 end
 
 def move(board, index, current_player)
-  # if current_player != "X" || current_player != "O"
-  #  return nil
-  #end
   board[index] = current_player
 end
 
@@ -121,8 +118,6 @@ end
 # Define your play method below
 
 def play(board)
-
-  player1_playing = true
 
   loop do
     turn(board)
